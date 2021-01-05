@@ -1,12 +1,12 @@
 #include <unistd.h>
 
-int		ft_str_is_number(char *str);
-int		ft_atoi(const char *str);
-int		is_space(char c);
-int		is_sign(char c);
-int		is_number(char c);
+int	ft_str_is_number(char *str);
+int	ft_atoi(const char *str);
+int	is_space(char c);
+int	is_sign(char c);
+int	is_number(char c);
 void	ft_putchar(char c);
-int		ft_recursive_factorial(int nb);
+int	ft_recursive_factorial(int nb);
 void	ft_putnbr(int nb);
 
 int		main(int argc, char *argv[])
