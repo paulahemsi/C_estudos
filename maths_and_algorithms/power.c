@@ -3,8 +3,8 @@
 int		ft_recursive_power(int nb, int power);
 int		ft_str_is_number(char *str);
 int		ft_atoi(const char *str);
-void	ft_putnbr(int nb);
-void	ft_putchar(char c);
+void 	ft_putnbr(int nb);
+void 	ft_putchar(char c);
 int		is_space(char c);
 int		is_sign(char c);
 int		is_number(char c);

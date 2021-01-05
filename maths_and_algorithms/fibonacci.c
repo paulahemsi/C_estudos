@@ -1,13 +1,13 @@
 #include <unistd.h>
 
-int		ft_fibonacci(int index);
-int		ft_str_is_number(char *str);
+int	ft_fibonacci(int index);
+int	ft_str_is_number(char *str);
 void	ft_putnbr(int nb);
 void	ft_putchar(char c);
-int		ft_atoi(const char *str);
-int		is_space(char c);
-int		is_sign(char c);
-int		is_number(char c);
+int	ft_atoi(const char *str);
+int	is_space(char c);
+int	is_sign(char c);
+int	is_number(char c);
 
 int		main(int argc, char *argv[])
 {
