@@ -9,7 +9,7 @@ int	is_space(char c);
 int	is_sign(char c);
 int	is_number(char c);
 
-int		main(int argc, char *argv[])
+int	main(int argc, char *argv[])
 {
 	if (argc != 2 || !ft_str_is_number(argv[1]))
 	{
@@ -21,7 +21,7 @@ int		main(int argc, char *argv[])
 	return (0);
 }
 
-int			ft_str_is_number(char *str)
+int	ft_str_is_number(char *str)
 {
 	int i;
 
@@ -74,7 +74,7 @@ void	ft_putchar(char c)
 	write(1, &c, 1);
 }
 
-int		ft_fibonacci(int index)
+int	ft_fibonacci(int index)
 {
 	if (index < 0)
 	{
@@ -91,7 +91,7 @@ int		ft_fibonacci(int index)
 	return ((ft_fibonacci(index - 1)) + (ft_fibonacci(index - 2)));
 }
 
-int ft_atoi(const char *str)
+int	ft_atoi(const char *str)
 {
     int i;
     int num;
@@ -121,7 +121,7 @@ int ft_atoi(const char *str)
     return (num * neg);
 }
 
-int		is_space(char c)
+int	is_space(char c)
 {
 	if (c == ' ' || c == '\v' || c == '\n' || c == '\t' || c == '\r' || c == '\f')
 	{
@@ -130,7 +130,7 @@ int		is_space(char c)
 	return (0);
 }
 
-int		is_sign(char c)
+int	is_sign(char c)
 {
 	if (c == '-' || c == '+')
 	{
@@ -139,7 +139,7 @@ int		is_sign(char c)
 	return (0);
 }
 
-int		is_number(char c)
+int	is_number(char c)
 {
 	if (c  >= '0' && c <= '9')
 	{

@@ -9,7 +9,7 @@ int	is_space(char c);
 int	is_sign(char c);
 int	is_number(char c);
 
-int		main(int argc, char *argv[])
+int	main(int argc, char *argv[])
 {
 	if (argc != 3 || !ft_str_is_number(argv[1]) || !ft_str_is_number(argv[2]))
 	{
@@ -21,7 +21,7 @@ int		main(int argc, char *argv[])
 	return (0);
 }
 
-int			ft_str_is_number(char *str)
+int	ft_str_is_number(char *str)
 {
 	int i;
 
@@ -74,7 +74,7 @@ void	ft_putchar(char c)
 	write(1, &c, 1);
 }
 
-int ft_recursive_power(int nb, int power)
+int	ft_recursive_power(int nb, int power)
 {
 	if (power < 0)
 	{
@@ -87,7 +87,7 @@ int ft_recursive_power(int nb, int power)
 	return (nb * ft_recursive_power(nb, (power - 1)));
 }
 
-int ft_atoi(const char *str)
+int	ft_atoi(const char *str)
 {
     int i;
     int num;
@@ -117,7 +117,7 @@ int ft_atoi(const char *str)
     return (num * neg);
 }
 
-int		is_space(char c)
+int	is_space(char c)
 {
 	if (c == ' ' || c == '\v' || c == '\n' || c == '\t' || c == '\r' || c == '\f')
 	{
@@ -126,7 +126,7 @@ int		is_space(char c)
 	return (0);
 }
 
-int		is_sign(char c)
+int	is_sign(char c)
 {
 	if (c == '-' || c == '+')
 	{
@@ -135,7 +135,7 @@ int		is_sign(char c)
 	return (0);
 }
 
-int		is_number(char c)
+int	is_number(char c)
 {
 	if (c  >= '0' && c <= '9')
 	{
