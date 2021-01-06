@@ -24,3 +24,5 @@
   * _factorial:_ programa que recebe como argumento um número e escreve na stdout o fatorial desse número
   * _fibonacci:_ programa que recebe como argumento um índice e escreve na stdout o número da [sequência de fibonacci](https://pt.wikipedia.org/wiki/Sequ%C3%AAncia_de_Fibonacci) correspondente (começando no índice 0 (0))
   * _power:_ programa que recebe como argumento um número e uma potência e escreve na stdout o número elevado a potência
+  * _clock_angle:_ recebe hora e minuto e escreve o menor ângulo formado pelos ponteiros de um relógio analógico
+  * _n_comb:_ recebe como argumento número n entre 1 e 9 e escreve na stdout todas as n combinações possíveis em ordem crescente.

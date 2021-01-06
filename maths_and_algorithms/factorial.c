@@ -2,9 +2,9 @@
 
 int		ft_str_is_number(char *str);
 int		ft_atoi(const char *str);
-intis_space(char c);
-intis_sign(char c);
-intis_number(char c);
+int	is_space(char c);
+int	is_sign(char c);
+int	is_number(char c);
 void	ft_putchar(char c);
 int	ft_recursive_factorial(int nb);
 void	ft_putnbr(int nb);
